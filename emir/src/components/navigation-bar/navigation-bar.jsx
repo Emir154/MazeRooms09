@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../scss/";
+import "@/scss/main.scss";
 
 export function NavigationBar() {
   return (
@@ -7,7 +7,7 @@ export function NavigationBar() {
       <Link className="container__link" to="/edit-users">
         Edit Users
       </Link>
-      <Link className="" to="/users">
+      <Link className="container__link" to="/users">
         Users
       </Link>
     </div>

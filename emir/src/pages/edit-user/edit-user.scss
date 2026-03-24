@@ -1,0 +1,69 @@
+@use "@/scss/variables" as *;
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+  margin-top: 80px;
+  max-width: 1400px;
+  padding-top: 60px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  gap: 80px;
+  opacity: 1;
+  border: 1px solid $color-black;
+
+  &__title {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 6px;
+    vertical-align: middle;
+  }
+
+  &__editor-menu {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 1080px;
+    height: 388px;
+    gap: 60px;
+    opacity: 1;
+  }
+
+  &__editor-menu-left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__editor-menu-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 190px;
+    gap: 40px;
+  }
+
+  &__complete {
+    display: flex;
+    position: relative;
+    left: 300px;
+  }
+
+  &__button {
+    width: 100px;
+    height: 48px;
+    padding-top: 14px;
+    padding-right: 112px;
+    padding-bottom: 14px;
+    padding-left: 112px;
+    gap: 10px;
+    opacity: 1;
+    border-width: 1px;
+    margin: 15px;
+    cursor: pointer;
+  }
+}

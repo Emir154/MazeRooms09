@@ -1,1 +1,17 @@
-@use "./components/navigation-bar.scss"
+// scss for components
+@use "../components/navigation-bar/navigation-bar.scss";
+@use "../components/add-user/add-user.scss";
+@use "../components/drop-down-menu/drop-down-menu.scss";
+
+//scss for pages
+@use "../pages/edit-user/edit-user.scss";
+@use "../pages/users/users.scss";
+
+// variables
+@use "../scss/variables";
+
+// global
+@use "../scss/global.scss";
+
+//reset
+@use "../scss/reset.scss";
