@@ -41,27 +41,27 @@ export function EditUsers() {
             title="Full Name"
             options={usersOptions}
             value={selectedUser}
-            onChange={handleUserChange}
+            onChange={setSelectedUser}
           />
           <DropDownMenu
             title="Country"
             options={countryOptions}
-            value={setCountry}
-            onChange={handleUserChange}
+            value={country}
+            onChange={setCountry}
           />
         </div>
         <div className="main__editor-menu-right">
           <DropDownMenu
             title="Department"
             options={departmentOptions}
-            value={setDepartment}
-            onChange={handleUserChange}
+            value={department}
+            onChange={setDepartment}
           />
           <DropDownMenu
             title="Active"
             options={statusesOptions}
-            value={setStatus}
-            onChange={status}
+            value={status}
+            onChange={setStatus}
           />
         </div>
       </section>
